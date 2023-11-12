@@ -1,0 +1,9 @@
+name: Samples # nama plugin
+api: 5.0.0 # versi API ke atas
+version: 1.0.0 # versi plugin
+main: nicholass003\samples\Main # lokasi Main class atau class extends PluginBase
+author: nicholass003 # nama author
+src-namespace-prefix: nicholass003\samples # tambahan namespace prefix hemat folder
+permissions: # permissions yg diregistrasi pada command
+  samples.command: # nama permission
+    default: true # default penguna, jika true semua player dapat menggunakannya
